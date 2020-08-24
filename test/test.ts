@@ -1,6 +1,22 @@
-const { describe } = require('mocha');
+import { describe } from 'mocha';
+import { chunkPromise } from '../lib';
 const assert = require('assert');
-const chunkPromise = require('../dist/index').chunkPromise
+
+describe('Test params', function () {
+  it('chunke return [] when pramas is []', function () {
+    chunkPromise([], 2)
+      .then(results => {
+        assert(JSON.stringify([]) === JSON.stringify(results));
+      });
+  });
+
+  it('it use default size 10 as default', function () {
+    chunkPromise([])
+      .then(results => {
+        assert(JSON.stringify([]) === JSON.stringify(results));
+      });
+  });
+});
 
 describe('Test chunked promise execution:', function () {
   it('all 4 chunks must execute', function () {
