@@ -1,4 +1,4 @@
-# chunk-promise [![Build Status](https://travis-ci.org/Yunfly/chunk-promise.svg?branch=master)](https://travis-ci.org/Yunfly/chunk-promise) [![Coverage Status](https://coveralls.io/repos/github/Yunfly/chunk-promise/badge.svg)](https://coveralls.io/github/Yunfly/chunk-promise)
+# chunk-promise [![Build Status](https://travis-ci.org/Yunfly/chunk-promise.svg?branch=master)](https://travis-ci.org/Yunfly/chunk-promise) [![Coverage Status](https://coveralls.io/repos/github/Yunfly/chunk-promise/badge.svg?branch=master)](https://coveralls.io/github/Yunfly/chunk-promise?branch=master)
 这个模块将Promise分成多个块，并依次执行它
 
 This module breaks the Promise into chunks and executes it in turn
