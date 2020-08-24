@@ -1,6 +1,6 @@
 {
   "name": "@yunfly/chunk-promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This module breaks the Promise into chunks and executes it in turn",
   "scripts": {
     "test": "mocha -r ts-node/register ./test/*.ts",
@@ -13,7 +13,8 @@
   "keywords": [
     "loop",
     "chunks",
-    "promise"
+    "promise",
+    "typescript"
   ],
   "files": [
     "dist"
@@ -27,6 +28,9 @@
     "url": "https://github.com/Yunfly/chunk-promise/issues"
   },
   "homepage": "https://github.com/Yunfly/chunk-promise#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@types/mocha": "^8.0.3",
     "@types/node": "^14.6.0",
