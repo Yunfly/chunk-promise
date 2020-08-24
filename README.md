@@ -1,4 +1,4 @@
-# chunk-promise
+# chunk-promise [![Build Status](https://travis-ci.org/Yunfly/chunk-promise.svg?branch=master)](https://travis-ci.org/Yunfly/chunk-promise)
 这个模块将Promise分成多个块，并依次执行它
 
 This module breaks the Promise into chunks and executes it in turn
