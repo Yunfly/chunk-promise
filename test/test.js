@@ -1,6 +1,6 @@
-import { describe } from 'mocha';
+const { describe } = require('mocha');
 const assert = require('assert');
-import { chunkPromise } from '../lib/index';
+const chunkPromise = require('../dist/index').chunkPromise
 
 describe('Test chunked promise execution:', function () {
   it('all 4 chunks must execute', function () {
