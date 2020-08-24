@@ -1,8 +1,7 @@
 {
   "name": "@yunfly/chunk-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This module breaks the Promise into chunks and executes it in turn",
-  "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register ./test/*.ts",
     "build": "tsc"
@@ -16,6 +15,12 @@
     "chunks",
     "promise"
   ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "unpkg": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "author": "Yunfly",
   "license": "MIT",
   "bugs": {
